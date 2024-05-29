@@ -12,7 +12,7 @@ import org.testng.Assert;
 import org.apache.logging.log4j.Logger;
 
 public class BasePage {
-    public WebDriver driver;
+    public static WebDriver driver;
     public WebDriverWait wait;
   //  private static Logger Logger = LogManager.getLogger(log4jTest.class);
     public BasePage (){

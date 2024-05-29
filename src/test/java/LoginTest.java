@@ -23,4 +23,10 @@ l.Login("sarfarazali","docters400");
     public void  login_without_creds(){
         l.Login("","");
     }
+
+
+    @Test(priority = 3)
+    public void  login_logout(){
+        l.Login_and_logout("sarfarazali","docters400");
+    }
 }
